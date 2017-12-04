@@ -1,0 +1,1676 @@
+/*第二部分页面*/
+@-webkit-keyframes fadeScaleBig {
+  0% {
+    -webkit-transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.5);
+    opacity: 0;
+  }
+}
+@-moz-keyframes fadeScaleBig {
+  0% {
+    -webkit-transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.5);
+    opacity: 0;
+  }
+}
+@-ms-keyframes fadeScaleBig {
+  0% {
+    -webkit-transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.5);
+    opacity: 0;
+  }
+}
+@-o-keyframes fadeScaleBig {
+  0% {
+    -webkit-transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.5);
+    opacity: 0;
+  }
+}
+@keyframes fadeScaleBig {
+  0% {
+    -webkit-transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.5);
+    opacity: 0;
+  }
+}
+.pa0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.ovh {
+  overflow: hidden;
+}
+.txc {
+  text-align: center;
+}
+.db {
+  display: block;
+}
+.bd {
+  display: block;
+}
+.pa {
+  position: absolute;
+}
+.pr {
+  position: relative;
+}
+.bc {
+  margin-left: auto;
+  margin-right: auto;
+}
+.position1_50 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.transi {
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  transition: all .4s ease;
+}
+.transD8 {
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  -ms-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+}
+.secondPage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: url("../../images/2017world/page-bg.jpg") no-repeat;
+  background-position: 0 center;
+  -webkit-transition: all 4s cubic-bezier(0.19, 1, 0.22, 1);
+  -moz-transition: all 4s cubic-bezier(0.19, 1, 0.22, 1);
+  -o-transition: all 4s cubic-bezier(0.19, 1, 0.22, 1);
+  -ms-transition: all 4s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 4s cubic-bezier(0.19, 1, 0.22, 1);
+  /*--底部滚动标志--*/
+  /*--左部滚动按钮--*/
+  /*--右侧滚动按钮--*/
+  /*--最后页面右侧按钮--*/
+  /*--轮播效果--*/
+  /*第二副页面*/
+  /*第三副页面*/
+  /*第四副页面*/
+  /*第五副页面*/
+  /*第六副页面*/
+  /*第七副页面*/
+}
+.secondPage .second_footer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 100;
+  height: 24px;
+  margin: 310px 0 0 -444px;
+  /*--左侧返回上一级--*/
+  /*--中间---*/
+  /*--右侧--*/
+}
+.secondPage .second_footer .back_first {
+  position: relative;
+  float: left;
+  width: 24px;
+  height: 24px;
+  margin-right: 18px;
+  /*--鼠标经过的类*/
+}
+.secondPage .second_footer .back_first .homeSpr {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 22px;
+  height: 22px;
+  margin: -11px 0 0 -11px;
+  background: url("../../images/2017world/sprites.png") no-repeat -72px -70px;
+}
+.secondPage .second_footer .back_first .homeBd {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 41px;
+  height: 41px;
+  margin: -21px 0 0 -21px;
+  border: 1px solid #9d8560;
+  cursor: pointer;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  transition: all .4s ease;
+}
+.secondPage .second_footer .back_first .homeBdHover {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-radius: 100%;
+}
+.secondPage .second_footer .Slide {
+  float: left;
+  position: relative;
+  z-index: 3;
+  padding-left: 42px;
+  /*贯通线*/
+  /*切换高亮*/
+}
+.secondPage .second_footer .Slide .lineSlide {
+  position: absolute;
+  top: 50%;
+  left: -2px;
+  width: 101%;
+  border-top: 1px solid #4879b4;
+  z-index: 3;
+}
+.secondPage .second_footer .Slide .prSlide {
+  position: relative;
+  float: left;
+  width: 24px;
+  height: 24px;
+  margin-right: 68px;
+  z-index: 4;
+}
+.secondPage .second_footer .Slide .prSlide .numDate {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  margin-top: -7px;
+  font-size: 12px;
+  line-height: 14px;
+  color: #4879b4;
+  -webkit-transform: rotate(-60deg);
+  -moz-transform: rotate(-60deg);
+  -o-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+  -webkit-transform-origin: -24px center;
+  -moz-transform-origin: -24px center;
+  -o-transform-origin: -24px center;
+  -ms-transform-origin: -24px center;
+  transform-origin: -24px center;
+}
+.secondPage .second_footer .Slide .prSlide .dotSlide {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 6;
+  width: 12px;
+  height: 12px;
+  margin: -6px 0 0 -6px;
+  background-color: #325886;
+  border-radius: 100%;
+}
+.secondPage .second_footer .Slide .prSlide .lineSlide {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 5;
+  width: 22px;
+  height: 22px;
+  margin: -11px 0 0 -11px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  -webkit-transform: scale(0, 0);
+  -moz-transform: scale(0, 0);
+  -ms-transform: scale(0, 0);
+  -o-transform: scale(0, 0);
+  transform: scale(0, 0);
+}
+@-webkit-keyframes fadeScaleBig {
+  0% {
+    -webkit-transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.5);
+    opacity: 0;
+  }
+}
+@-moz-keyframes fadeScaleBig {
+  0% {
+    -moz-transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    -moz-transform: scale(1.5);
+    opacity: 0;
+  }
+}
+@-o-keyframes fadeScaleBig {
+  0% {
+    -o-transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    -o-transform: scale(1.5);
+    opacity: 0;
+  }
+}
+@-ms-keyframes fadeScaleBig {
+  0% {
+    -ms-transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    -ms-transform: scale(1.5);
+    opacity: 0;
+  }
+}
+@keyframes fadeScaleBig {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+.secondPage .second_footer .Slide .prSlide .roundSlide1 {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 6;
+  width: 32px;
+  height: 32px;
+  margin: -16px -16px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 100%;
+}
+.secondPage .second_footer .Slide .prSlide .roundSlide2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: none;
+  z-index: 5;
+  width: 40px;
+  height: 40px;
+  margin: -20px -20px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 100%;
+}
+.secondPage .second_footer .Slide .prSlide .text {
+  position: absolute;
+  top: 42px;
+  left: 50%;
+  display: none;
+  width: 72px;
+  margin-left: -36px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #fff;
+  opacity: 0;
+  text-align: center;
+}
+.secondPage .second_footer .Slide .prSlide .transNumDate {
+  color: #fff;
+}
+.secondPage .second_footer .Slide .prSlide .transNumDate1 {
+  color: #fff;
+}
+.secondPage .second_footer .Slide .prSlide .transDotSlide {
+  background-color: #fff;
+}
+.secondPage .second_footer .Slide .prSlide .transDotSlide1 {
+  background-color: #fff;
+}
+.secondPage .second_footer .Slide .prSlide .transLineSlide {
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  transform: scale(1, 1);
+}
+.secondPage .second_footer .Slide .prSlide .transLineSlide1 {
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  transform: scale(1, 1);
+}
+.secondPage .second_footer .Slide .prSlide .roundChange1 {
+  display: block;
+}
+.secondPage .second_footer .Slide .prSlide .roundChange2 {
+  -webkit-animation: fadeScaleBig 2s ease infinite both;
+  -moz-animation: fadeScaleBig 2s ease infinite both;
+  -o-animation: fadeScaleBig 2s ease infinite both;
+  -ms-animation: fadeScaleBig 2s ease infinite both;
+  animation: fadeScaleBig 2s ease infinite both;
+}
+.secondPage .second_footer .Slide .prSlide .transText {
+  display: block;
+  opacity: 1;
+}
+.secondPage .second_footer .Slide .prSlide .transText1 {
+  display: block;
+  opacity: 1;
+}
+.secondPage .second_footer .tips {
+  position: relative;
+  z-index: 4;
+  float: left;
+  padding-left: 48px;
+  font-size: 12px;
+  line-height: 24px;
+  color: #c1aa87;
+}
+.secondPage .second_footer .tips .icon {
+  position: absolute;
+  display: block;
+  top: 50%;
+  background: #94846a;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.secondPage .second_footer .tips .icon-1 {
+  left: 2px;
+  width: 10px;
+  height: 10px;
+  margin-top: -4px;
+}
+.secondPage .second_footer .tips .icon-2 {
+  left: 19px;
+  width: 8px;
+  height: 8px;
+  margin-top: -3px;
+}
+.secondPage .second_footer .tips .icon-3 {
+  left: 34px;
+  width: 6px;
+  height: 6px;
+  margin-top: -2px;
+}
+.secondPage .second_footer .tips .fl {
+  float: left;
+}
+.secondPage .leftBtn {
+  position: absolute;
+  top: 50%;
+  left: 53px;
+  z-index: 99;
+  width: 70px;
+  height: 70px;
+  margin-top: -72px;
+  cursor: pointer;
+  -webkit-transition: all 1.5s ease;
+  -moz-transition: all 1.5s ease;
+  -o-transition: all 1.5s ease;
+  -ms-transition: all 1.5s ease;
+  transition: all 1.5s ease;
+}
+.secondPage .leftBtn .leftSpr {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 14px;
+  height: 23px;
+  margin: -12px 0 0 -10px;
+  background: url("../../images/2017world/sprites.png") -72px -44px;
+}
+.secondPage .leftBtn .leftBd {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 70px;
+  background: url("../../images/2017world/sprites.png") 0 -44px;
+}
+.secondPage .leftBtn .leftLine {
+  position: absolute;
+  top: 50%;
+  left: 78px;
+  z-index: 3;
+  width: 134px;
+  height: 1px;
+  background-color: #2b4f7b;
+}
+.secondPage .leftBtn .btnHover1 {
+  -webkit-transform: scale(0.85);
+  -moz-transform: scale(0.85);
+  -ms-transform: scale(0.85);
+  -o-transform: scale(0.85);
+  transform: scale(0.85);
+}
+.secondPage .leftBtn .btnHover2 {
+  left: 48px;
+  width: 110px;
+}
+.secondPage .rightBtn {
+  display: none;
+  position: absolute;
+  top: 50%;
+  right: 70px;
+  z-index: 99;
+  width: 200px;
+  height: 200px;
+  margin-top: -137px;
+  cursor: pointer;
+  -webkit-transition: all 1.5s ease;
+  -moz-transition: all 1.5s ease;
+  -o-transition: all 1.5s ease;
+  -ms-transition: all 1.5s ease;
+  transition: all 1.5s ease;
+}
+.secondPage .rightBtn .rightSpr {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 22px;
+  height: 37px;
+  margin: -19px 0 0 -4px;
+  background: url("../../images/2017world/sprites.png") -104px -44px;
+}
+.secondPage .rightBtn .rightBd {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  z-index: 3;
+  width: 142px;
+  height: 142px;
+  margin-top: -71px;
+  border: 1px solid #c0a069;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.secondPage .rightBtn .rightLine {
+  position: absolute;
+  top: 50%;
+  left: 77px;
+  width: 130px;
+  height: 130px;
+  margin-top: -65px;
+  border: 1px solid #23345b;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.secondPage .rightBtn .rightDate {
+  position: absolute;
+  top: 50%;
+  right: 220px;
+  padding: 0 14px;
+  margin-top: -13px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #c0a069;
+  background: -webkit-gradient(linear, 0 100%, 100% 100%, from(rgba(10, 21, 36, 0.2)), to(#0a1524));
+  background: -moz-gradient(linear, 0 100%, 100% 100%, from(rgba(10, 21, 36, 0.2)), to(#0a1524));
+  background: -ms-gradient(linear, 0 100%, 100% 100%, from(rgba(10, 21, 36, 0.2)), to(#0a1524));
+  background: -o-gradient(linear, 0 100%, 100% 100%, from(rgba(10, 21, 36, 0.2)), to(#0a1524));
+}
+.secondPage .rightBtn .rightHover {
+  -webkit-transform: scale(0.9) rotate(45deg);
+  -moz-transform: scale(0.9) rotate(45deg);
+  -o-transform: scale(0.9) rotate(45deg);
+  -ms-transform: scale(0.9) rotate(45deg);
+  transform: scale(0.9) rotate(45deg);
+}
+.secondPage .rightBtn .rightSprHover {
+  webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+}
+.secondPage .rightBtn .rightBdHover {
+  left: 35px;
+}
+.secondPage .rightBtn .rightLineHover {
+  left: 67px;
+}
+.secondPage .rightBtn .rightDateHover {
+  right: 155px;
+}
+.secondPage .lastBtn {
+  position: absolute;
+  top: 50%;
+  right: 124px;
+  width: 80px;
+  margin-top: -95px;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  z-index: 99;
+  color: #bc9b6a;
+  -webkit-transition: all 1.5s ease;
+  -moz-transition: all 1.5s ease;
+  -o-transition: all 1.5s ease;
+  -ms-transition: all 1.5s ease;
+  transition: all 1.5s ease;
+}
+.secondPage .lastBtn .lastSpr:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: '';
+  width: 56px;
+  height: 56px;
+  margin: -28px 0 0 -28px;
+  border: 1px solid #8d7859;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.secondPage .lastBtn .lastSpr {
+  position: relative;
+  display: block;
+  width: 22px;
+  height: 32px;
+  margin-bottom: 46px;
+  margin-left: auto;
+  margin-right: auto;
+  background: url("../../images/2017world/sprites.png") no-repeat -100px -110px;
+}
+.secondPage .lastBtn .lastBd {
+  display: block;
+  margin-bottom: 4px;
+}
+.secondPage .lunDiv {
+  opacity: 0;
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  /*--三角箭头标志---*/
+}
+.secondPage .lunDiv *,
+.secondPage .lunDiv *:before,
+.secondPage .lunDiv *:after {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.secondPage .lunDiv .p7-pic {
+  background: url("../../images/2017world/pic-7-2.jpg") no-repeat;
+}
+.secondPage .lunDiv .p7-spr {
+  background: url("../../images/2017world/p7-spr.png") no-repeat;
+}
+.secondPage .lunDiv .spr {
+  background: url("../../images/2017world/sprites.png") no-repeat;
+}
+.secondPage .lunDiv .pic-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  width: 524px;
+  height: 388px;
+  margin: -288px 0 0 -145px;
+}
+.secondPage .lunDiv .pic {
+  width: 100%;
+  height: 100%;
+}
+.secondPage .lunDiv .pic img {
+  display: block;
+  margin-left: -75px;
+}
+.secondPage .lunDiv .pic-con {
+  width: 100%;
+  height: 100%;
+}
+.secondPage .lunDiv .skew {
+  transform: skew(-21deg);
+  -webkit-transform: skew(-21deg);
+  -moz-transform: skew(-21deg);
+  -ms-transform: skew(-21deg);
+  -o-transform: skew(-21deg);
+}
+.secondPage .lunDiv .skew-con {
+  transform: skew(21deg);
+  -webkit-transform: skew(21deg);
+  -moz-transform: skew(21deg);
+  -ms-transform: skew(21deg);
+  -o-transform: skew(21deg);
+}
+.secondPage .lunDiv .subtit,
+.secondPage .lunDiv .title,
+.secondPage .lunDiv .text {
+  top: 50%;
+  left: 50%;
+  z-index: 5;
+  margin-left: -404px;
+}
+.secondPage .lunDiv .subtit {
+  margin-top: -258px;
+  font-size: 24px;
+  line-height: 32px;
+  color: #397bcd;
+}
+.secondPage .lunDiv .title {
+  margin-top: -226px;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 68px;
+  color: #fff;
+}
+.secondPage .lunDiv .text {
+  width: 310px;
+  margin-top: -143px;
+  line-height: 22px;
+  color: #fff;
+}
+.secondPage .lunDiv .more-btn {
+  top: 50%;
+  left: 50%;
+  z-index: 5;
+  width: 110px;
+  height: 110px;
+  margin: -5px 0 0 -425px;
+  margin-left: -425px;
+  border: 1px solid #244b7b;
+  border-radius: 100%;
+}
+.secondPage .lunDiv .more-btn .btn-shape {
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+  width: 154px;
+  height: 132px;
+  margin: -66px 0 0 -77px;
+}
+.secondPage .lunDiv .more-btn .btn-shape svg {
+  width: 154px;
+  height: 132px;
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: -webkit-transform 0.4s;
+  transition: transform .4s;
+  transition: transform 0.4s, -webkit-transform 0.4s;
+}
+.secondPage .lunDiv .more-btn .btn-shape svg path {
+  fill: #fff;
+}
+.secondPage .lunDiv .more-btn .btn-arr {
+  top: 50%;
+  left: 50%;
+  z-index: 4;
+  width: 25px;
+  height: 20px;
+  margin: -10px 0 0 -12px;
+  background-position: -72px -94px;
+  opacity: 1;
+  -webkit-transition: all .3s 0s;
+  transition: all .3s 0s;
+}
+.secondPage .lunDiv .more-btn .btn-text {
+  top: 50%;
+  left: 50%;
+  z-index: 4;
+  width: 100%;
+  -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+  transform: translate(-50%, -50%) rotate(-45deg);
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  opacity: 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.secondPage .lunDiv .more-btn::after {
+  width: 130px;
+  height: 130px;
+  margin: -65px 0 0 -65px;
+  -webkit-animation: fadeScaleBig 2s 1s ease infinite both;
+  -moz-animation: fadeScaleBig 2s 1s ease infinite both;
+  -o-animation: fadeScaleBig 2s 1s ease infinite both;
+  -ms-animation: fadeScaleBig 2s 1s ease infinite both;
+  animation: fadeScaleBig 2s 1s ease infinite both;
+}
+.secondPage .lunDiv .more-btn::before,
+.secondPage .lunDiv .more-btn::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  content: '';
+  background: rgba(36, 75, 123, 0.15);
+  border-radius: 100%;
+}
+.secondPage .lunDiv .more-btn::before {
+  width: 120px;
+  height: 120px;
+  margin: -60px 0 0 -60px;
+  -webkit-animation: fadeScaleBig 2s ease infinite both;
+  -moz-animation: fadeScaleBig 2s ease infinite both;
+  -o-animation: fadeScaleBig 2s ease infinite both;
+  -ms-animation: fadeScaleBig 2s ease infinite both;
+  animation: fadeScaleBig 2s ease infinite both;
+}
+.secondPage .lunDiv .more-btn:hover::before,
+.secondPage .lunDiv .more-btn:hover::after {
+  display: none;
+}
+.secondPage .lunDiv .more-btn:hover svg {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.secondPage .lunDiv .more-btn:hover .btn-arr {
+  opacity: 0;
+}
+.secondPage .lunDiv .more-btn:hover .btn-text {
+  opacity: 1;
+  -webkit-transform: translate(-50%, -50%) rotate(0);
+  transform: translate(-50%, -50%) rotate(0);
+}
+.secondPage .lunActive {
+  opacity: 1;
+  display: block;
+}
+.secondPage .DivHid1 {
+  opacity: 0;
+  -webkit-transform: translateX(500px);
+  -o-transform: translateX(500px);
+  -ms-transform: translateX(500px);
+  -moz-transform: translateX(500px);
+  transform: translateX(500px);
+}
+.secondPage .DivHid2 {
+  opacity: 0;
+  -webkit-transform: translateX(-500px);
+  -o-transform: translateX(-500px);
+  -ms-transform: translateX(-500px);
+  -moz-transform: translateX(-500px);
+  transform: translateX(-500px);
+}
+.secondPage .DivHid3 {
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  transform: scale(1.5);
+}
+.secondPage .lunDiv2 .min-pic-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+  width: 258px;
+  height: 190px;
+  margin: -60px 0 0 145px;
+}
+.secondPage .lunDiv2 .min-pic-box .min-pic {
+  width: 100%;
+  height: 100%;
+}
+.secondPage .lunDiv2 .min-pic-box .min-pic img {
+  display: block;
+  margin-left: -36px;
+}
+.secondPage .lunDiv3 .subtit,
+.secondPage .lunDiv3 .title,
+.secondPage .lunDiv3 .text {
+  margin-left: -440px;
+}
+.secondPage .lunDiv3 .pic-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  width: 524px;
+  height: 388px;
+  margin: -288px 0 0 -220px;
+}
+.secondPage .lunDiv3 .pic-box .pic {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+}
+.secondPage .lunDiv3 .pic-box .pic .pic-con {
+  width: 100%;
+  height: 100%;
+}
+.secondPage .lunDiv3 .pic-box .pic .pic-con img {
+  display: block;
+  margin-left: -75px;
+  -webkit-transition: transform 0.8s ease;
+  -moz-transition: transform 0.8s ease;
+  -o-transition: transform 0.8s ease;
+  -ms-transition: transform 0.8s ease;
+  transition: transform 0.8s ease;
+}
+.secondPage .lunDiv3 .pic-box .pic-1 {
+  opacity: 1;
+}
+.secondPage .lunDiv3 .pic-change {
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+  margin: -288px 0 0 368px;
+  list-style: none;
+}
+.secondPage .lunDiv3 .pic-change li.change-1 {
+  top: 0;
+  left: 0;
+}
+.secondPage .lunDiv3 .pic-change li.change-1 img {
+  margin: -65px 0 0 -435px;
+}
+.secondPage .lunDiv3 .pic-change li.change-2 {
+  top: 134px;
+  left: -51px;
+}
+.secondPage .lunDiv3 .pic-change li.change-2 img {
+  margin: -60px 0 0 -380px;
+}
+.secondPage .lunDiv3 .pic-change li.change-3 {
+  top: 268px;
+  left: -102px;
+}
+.secondPage .lunDiv3 .pic-change li.change-3 img {
+  margin: -80px 0 0 -225px;
+}
+.secondPage .lunDiv3 .pic-change li {
+  width: 162px;
+  height: 120px;
+  cursor: pointer;
+}
+.secondPage .lunDiv3 .pic-change li p {
+  width: 100%;
+  height: 100%;
+}
+.secondPage .lunDiv3 .pic-change li b {
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.secondPage .lunDiv3 .pic-change li img {
+  display: block;
+}
+.secondPage .lunDiv3 .pic-change .current b {
+  display: none;
+}
+.secondPage .lunDiv3 .more-btn {
+  margin-left: -461px;
+}
+.secondPage .lunDiv4 {
+  /*中部图片*/
+  /*左侧部分*/
+}
+.secondPage .lunDiv4 .pic-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  width: 524px;
+  height: 388px;
+  margin: -288px 0 0 -145px;
+}
+.secondPage .lunDiv4 .pic-box .skew {
+  width: 100%;
+  height: 100%;
+  transform: skew(-21deg);
+  -webkit-transform: skew(-21deg);
+  -moz-transform: skew(-21deg);
+  -ms-transform: skew(-21deg);
+  -o-transform: skew(-21deg);
+}
+.secondPage .lunDiv4 .pic-box .skew .skew-con {
+  width: 100%;
+  height: 100%;
+  transform: skew(21deg);
+  -webkit-transform: skew(21deg);
+  -moz-transform: skew(21deg);
+  -ms-transform: skew(21deg);
+  -o-transform: skew(21deg);
+}
+.secondPage .lunDiv4 .pic-box .skew .skew-con img {
+  margin-left: -75px;
+}
+.secondPage .lunDiv4 .sub {
+  top: 50%;
+  left: 50%;
+  z-index: 5;
+  margin-left: -404px;
+  margin-top: -258px;
+  font-size: 24px;
+  line-height: 32px;
+  color: #397bcd;
+}
+.secondPage .lunDiv4 .title {
+  top: 50%;
+  left: 50%;
+  z-index: 5;
+  margin-left: -404px;
+  margin-top: -226px;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 68px;
+  color: #fff;
+}
+.secondPage .lunDiv4 .text4 {
+  width: 310px;
+  margin-top: -143px;
+  line-height: 22px;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  z-index: 5;
+  margin-left: -404px;
+}
+.secondPage .lunDiv4 .btns:hover span {
+  opacity: 0;
+}
+.secondPage .lunDiv4 .btns:hover b {
+  left: 0;
+}
+.secondPage .lunDiv4 .btns:hover i {
+  margin-left: -12px;
+}
+.secondPage .lunDiv4 .btns {
+  top: 50%;
+  left: 50%;
+  z-index: 5;
+  width: 126px;
+  height: 41px;
+  margin-left: -404px;
+  line-height: 41px;
+  color: #fff;
+  border: 1px solid #bc9b6a;
+  box-sizing: border-box;
+}
+.secondPage .lunDiv4 .btns span {
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  transition: all .4s ease;
+}
+.secondPage .lunDiv4 .btns b {
+  top: 0;
+  left: 126px;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  background-color: #122f52;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  transition: all .4s ease;
+}
+.secondPage .lunDiv4 .btns i {
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  transition: all .4s ease;
+  top: 50%;
+  left: 50%;
+  z-index: 4;
+  width: 24px;
+  height: 14px;
+  margin: -7px 0 0 -126px;
+  background: url("../../images/2017world/sprites.png") no-repeat -100px -94px;
+}
+.secondPage .lunDiv4 .download {
+  margin-top: -30px;
+  text-decoration: none;
+}
+.secondPage .lunDiv4 .story {
+  margin-top: 57px;
+}
+.secondPage .lunDiv5 .subcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.secondPage .lunDiv5 .subcon-1 .link-btn-1 {
+  margin: -338px 0 0 -363px;
+}
+.secondPage .lunDiv5 .subcon-1 a {
+  top: 50%;
+  left: 50%;
+  width: 390px;
+  height: 414px;
+  cursor: pointer;
+}
+.secondPage .lunDiv5 .subcon-1 span {
+  top: 69px;
+  left: 45px;
+  width: 127px;
+  height: 94px;
+}
+.secondPage .lunDiv5 .subcon-1 span img {
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.secondPage .lunDiv5 .subcon-1 em {
+  top: 283px;
+  left: 38px;
+  width: 241px;
+  height: 72px;
+}
+.secondPage .lunDiv5 .subcon-1 em img {
+  display: block;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.secondPage .lunDiv5 .subcon-1 .link-btn-2 {
+  margin: -264px 0 0 -2px;
+}
+.secondPage .lunDiv5 .subcon-1 .link-btn-1:hover span,
+.secondPage .lunDiv5 .subcon-1 .link-btn-2:hover span {
+  -webkit-transform: translateX(20px);
+  -moz-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  -o-transform: translateX(20px);
+  transform: translateX(20px);
+}
+.secondPage .lunDiv5 .subcon-1 .link-btn-1:hover em,
+.secondPage .lunDiv5 .subcon-1 .link-btn-2:hover em {
+  -webkit-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  -o-transform: translateY(-20px);
+  transform: translateY(-20px);
+}
+.secondPage .lunDiv6 {
+  /*小标题*/
+  /*内容图*/
+  /*武汉*/
+  /*组图*/
+}
+.secondPage .lunDiv6 .subtit {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -254px 0 0 -300px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #bc9b6a;
+  z-index: 5;
+}
+.secondPage .lunDiv6 .subtit p {
+  position: relative;
+}
+.secondPage .lunDiv6 .subtit p b {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: -88px;
+  width: 71px;
+  height: 1px;
+  background-color: #bc9b6a;
+}
+.secondPage .lunDiv6 .main-pic {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 505px;
+  height: 353px;
+  margin: -222px 0 0 -508px;
+  background: url("../../images/2017world/pic-7-1.jpg") no-repeat;
+  overflow: hidden;
+}
+.secondPage .lunDiv6 .main-pic .act-time {
+  position: absolute;
+  bottom: 20px;
+  width: 115px;
+  height: 55px;
+  padding: 5px 0 0 74px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #7ca1ce;
+  background: #0d151f;
+  background: rgba(2, 4, 7, 0.46);
+}
+.secondPage .lunDiv6 .main-pic .act-time i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 63px;
+  height: 60px;
+  background: url("../../images/2017world/p7-spr.png") no-repeat;
+  text-indent: -9999em;
+  overflow: hidden;
+}
+.secondPage .lunDiv6 .main-pic .act-time p span {
+  margin-bottom: 3px;
+  color: #bc9b6a;
+}
+.secondPage .lunDiv6 .main-pic .act-time-1 {
+  left: 22px;
+}
+.secondPage .lunDiv6 .main-pic .act-time-1 .act-num1 {
+  background-position: -208px -196px;
+}
+.secondPage .lunDiv6 .main-pic .act-time-2 {
+  left: 242px;
+}
+.secondPage .lunDiv6 .main-pic .act-time-2 .act-num2 {
+  background-position: -276px -196px;
+}
+.secondPage .lunDiv6 .event {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+  width: 184px;
+  height: 184px;
+}
+.secondPage .lunDiv6 .evt-btn {
+  width: 100%;
+  height: 100%;
+}
+.secondPage .lunDiv6 .evt-btn .num {
+  right: 5px;
+  bottom: 7px;
+  z-index: 2;
+  width: 41px;
+  height: 41px;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 41px;
+  color: #bc9b6a;
+  background: rgba(9, 15, 22, 0.75);
+  border-radius: 100%;
+}
+.secondPage .lunDiv6 .evt-btn span {
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-position: -184px 0;
+}
+.secondPage .lunDiv6 .evt-btn em {
+  top: 0;
+  left: 0;
+  z-index: 3;
+  display: none;
+  width: 100%;
+  height: 54px;
+  padding: 65px 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+.secondPage .lunDiv6 .evt-btn strong {
+  width: 144px;
+  height: 42px;
+  padding-top: 10px;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 16px;
+  color: #dbb683;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+}
+.secondPage .lunDiv6 .evt-btn b {
+  left: 50%;
+  width: 1px;
+  height: 22px;
+  background: rgba(255, 255, 255, 0.16);
+}
+.secondPage .lunDiv6 .evt-btn b.line-1 {
+  top: 34px;
+}
+.secondPage .lunDiv6 .evt-btn b.line-2 {
+  bottom: 34px;
+}
+.secondPage .lunDiv6 .evt-btn:hover em {
+  display: block;
+}
+.secondPage .lunDiv6 .evt-btn:hover span {
+  display: block;
+}
+.secondPage .lunDiv6 .event-1 {
+  margin: -236px 0 0 128px;
+}
+.secondPage .lunDiv6 .event-1 .evt-btn {
+  background-position: 0 0;
+}
+.secondPage .lunDiv6 .event-2 {
+  margin: -236px 0 0 312px;
+}
+.secondPage .lunDiv6 .event-2 .evt-btn {
+  background-position: -736px 0;
+}
+.secondPage .lunDiv6 .event-3 {
+  margin: -52px 0 0 -56px;
+}
+.secondPage .lunDiv6 .event-3 .evt-btn {
+  background-position: -552px 0;
+}
+.secondPage .lunDiv6 .event-4 {
+  margin: -52px 0 0 128px;
+}
+.secondPage .lunDiv6 .event-4 .evt-btn {
+  background-position: -920px 0;
+}
+.secondPage .lunDiv6 .event-5 {
+  margin: -52px 0 0 312px;
+  background-position: -1104px 0;
+}
+.secondPage .lunDiv6 .event-5 .buy-btn:hover i {
+  display: none;
+}
+.secondPage .lunDiv6 .event-5 .buy-btn:hover em {
+  top: 0;
+  -webkit-transform: scale(0.94);
+  -moz-transform: scale(0.94);
+  -o-transform: scale(0.94);
+  -ms-transform: scale(0.94);
+  transform: scale(0.94);
+}
+.secondPage .lunDiv6 .event-5 .buy-btn {
+  top: 50%;
+  left: 50%;
+  width: 194px;
+  height: 194px;
+  margin: -97px 0 0 -97px;
+}
+.secondPage .lunDiv6 .event-5 .buy-btn i {
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 194px;
+  height: 194px;
+  background-position: -196px 0;
+  -webkit-animation: fadeScaleBig 2s ease infinite both;
+  -moz-animation: fadeScaleBig 2s ease infinite both;
+  -o-animation: fadeScaleBig 2s ease infinite both;
+  -ms-animation: fadeScaleBig 2s ease infinite both;
+  animation: fadeScaleBig 2s ease infinite both;
+}
+.secondPage .lunDiv6 .event-5 .buy-btn span {
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 194px;
+  height: 194px;
+  background-position: 0 0;
+}
+.secondPage .lunDiv6 .event-5 .buy-btn em {
+  top: 6px;
+  left: 50%;
+  z-index: 1;
+  width: 205px;
+  height: 205px;
+  margin-left: -102px;
+  background-position: 0 -196px;
+}
+.secondPage .lunDiv6 .brand {
+  top: 50%;
+  left: 50%;
+  z-index: 5;
+  width: 178px;
+  height: 200px;
+  padding: 29px 18px 0;
+  margin: -265px 0 0 -86px;
+  background-color: #1f4a7f;
+}
+.secondPage .lunDiv6 .brand i {
+  width: 25px;
+  height: 4px;
+  margin-bottom: 41px;
+  background-color: #fff;
+}
+.secondPage .lunDiv6 .brand p {
+  width: 176px;
+  height: 94px;
+  padding-top: 27px;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 36px;
+  color: #fff;
+  border: 1px solid #5979a0;
+}
+.secondPage .lunDiv6 .brand em {
+  top: 67px;
+  left: 50%;
+  z-index: 2;
+  width: 114px;
+  height: 16px;
+  margin-left: -57px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #fff;
+  background-color: #1f4a7f;
+}
+.secondPage .lunDiv7 {
+  /*标题*/
+  /*tab菜单*/
+  /*战队team*/
+}
+.secondPage .lunDiv7 .con8-tit {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  margin-top: -390px;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 30px;
+  color: #fffffe;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  -ms-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+}
+.secondPage .lunDiv7 .con8-tit span {
+  position: relative;
+  top: -6px;
+  font-size: 12px;
+  line-height: 14px;
+  color: #bc9b6a;
+}
+.secondPage .lunDiv7 .con8-tab {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 5;
+  width: 400px;
+  text-align: center;
+  margin: -324px 0 0 -148px;
+  cursor: pointer;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  -ms-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+}
+.secondPage .lunDiv7 .con8-tab .con8-li {
+  position: relative;
+  float: left;
+  width: 118px;
+  height: 35px;
+  margin-right: 60px;
+}
+.secondPage .lunDiv7 .con8-tab .tab-btn {
+  width: 116px;
+  height: 33px;
+  font-size: 14px;
+  line-height: 33px;
+  color: #3a6fb7;
+  border: 1px solid #294770;
+}
+.secondPage .lunDiv7 .con8-tab .tab-btn .dil {
+  display: inline-block;
+}
+.secondPage .lunDiv7 .con8-tab .tab-btn .p8-spr {
+  position: relative;
+  top: 2px;
+  width: 15px;
+  height: 15px;
+  margin-left: 3px;
+  background: url("../../images/2017world/p8-spr.png") -251px -244px;
+}
+.secondPage .lunDiv7 .con8-tab .tab-btn2 {
+  color: #ae9877;
+  border-color: #615748;
+}
+.secondPage .lunDiv7 .con8-tab .tab-btn2 i.p8-spr {
+  background-position: -251px -261px;
+}
+.secondPage .lunDiv7 .con8-tab .line {
+  position: absolute;
+  top: 17px;
+  width: 295px;
+  height: 1px;
+  background-color: #2a5187;
+}
+.secondPage .lunDiv7 .con8-tab .line-1 {
+  left: -295px;
+}
+.secondPage .lunDiv7 .con8-tab .line-2 {
+  right: -295px;
+  background-color: #615748;
+}
+.secondPage .lunDiv7 .con8-tab .tab-btn1:hover {
+  color: #fff;
+  background-color: #294770;
+}
+.secondPage .lunDiv7 .con8-tab .tab-btn2:hover {
+  color: #fff;
+  background-color: #615748;
+}
+.secondPage .lunDiv7 .team {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1202px;
+  height: 761px;
+  margin: -431px 0 0 -618px;
+  background: url("../../images/2017world/pic-8.png") no-repeat;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  -ms-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+}
+.secondPage .lunDiv7 .team .team-con {
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: all .8s ease;
+  -moz-transition: all .8s ease;
+  -o-transition: all .8s ease;
+  -ms-transition: all .8s ease;
+  transition: all .8s ease;
+}
+.secondPage .lunDiv7 .team .team-con .p8-spr {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: url("../../images/2017world/p8-spr.png") no-repeat;
+}
+.secondPage .lunDiv7 .team .team-con-rw-1 {
+  top: 521px;
+  left: 273px;
+  width: 142px;
+  height: 63px;
+}
+.secondPage .lunDiv7 .team .team-con-rw-1 i.p8-spr {
+  background-position: 0 0;
+}
+.secondPage .lunDiv7 .team .team-con-rw-2 {
+  top: 425px;
+  left: 422px;
+  width: 142px;
+  height: 63px;
+}
+.secondPage .lunDiv7 .team .team-con-rw-2 i.p8-spr {
+  background-position: -144px 0;
+}
+.secondPage .lunDiv7 .team .team-con-rw-3 {
+  top: 171px;
+  left: 692px;
+  width: 63px;
+  height: 142px;
+}
+.secondPage .lunDiv7 .team .team-con-rw-3 i.p8-spr {
+  background-position: 0 -65px;
+}
+.secondPage .lunDiv7 .team .team-con-rw-4 {
+  top: 403px;
+  left: 761px;
+  width: 87px;
+  height: 112px;
+}
+.secondPage .lunDiv7 .team .team-con-rw-4 i.p8-spr {
+  background-position: -65px -130px;
+}
+.secondPage .lunDiv7 .team .team-con-rw-5 {
+  top: 401px;
+  left: 891px;
+  width: 115px;
+  height: 110px;
+}
+.secondPage .lunDiv7 .team .team-con-rw-5 i.p8-spr {
+  background-position: -154px -130px;
+}
+.secondPage .lunDiv7 .team .team-con-rw-6 {
+  top: 323px;
+  left: 933px;
+  width: 178px;
+  height: 63px;
+}
+.secondPage .lunDiv7 .team .team-con-rw-6 i.p8-spr {
+  background-position: -65px -65px;
+}
+.secondPage .lunDiv7 .team .team-con-xz-1 {
+  top: 311px;
+  left: 189px;
+  width: 105px;
+  height: 63px;
+}
+.secondPage .lunDiv7 .team .team-con-xz-1 i.p8-spr {
+  background-position: 0 -244px;
+}
+.secondPage .lunDiv7 .team .team-con-xz-2 {
+  top: 334px;
+  left: 318px;
+  width: 142px;
+  height: 63px;
+}
+.secondPage .lunDiv7 .team .team-con-xz-2 i.p8-spr {
+  background-position: -107px -244px;
+}
+.secondPage .lunDiv7 .team .team-con-xz-3 {
+  top: 278px;
+  left: 501px;
+  width: 114px;
+  height: 63px;
+}
+.secondPage .lunDiv7 .team .team-con-xz-3 i.p8-spr {
+  background-position: 0 -309px;
+}
+.secondPage .lunDiv7 .team .team-con-xz-4 {
+  top: 219px;
+  left: 604px;
+  width: 63px;
+  height: 95px;
+}
+.secondPage .lunDiv7 .team .team-con-xz-4 i.p8-spr {
+  background-position: -116px -309px;
+}
+.secondPage .lunDiv7 .team .team-con-xz-5 {
+  top: 375px;
+  left: 728px;
+  width: 105px;
+  height: 63px;
+}
+.secondPage .lunDiv7 .team .team-con-xz-5 i.p8-spr {
+  background-position: 0 -374px;
+}
+.secondPage .lunDiv7 .team .team-con-xz-6 {
+  top: 250px;
+  left: 768px;
+  width: 98px;
+  height: 140px;
+}
+.secondPage .lunDiv7 .team .team-con-xz-6 i.p8-spr {
+  background-position: -116px -406px;
+}
+.secondPage .lunDiv7 .team .team-con-xz-7 {
+  top: 282px;
+  left: 847px;
+  width: 63px;
+  height: 94px;
+}
+.secondPage .lunDiv7 .team .team-con-xz-7 i.p8-spr {
+  background-position: -181px -309px;
+}
+.secondPage .lunDiv7 .team .team-con-xz-8 {
+  top: 398px;
+  left: 854px;
+  width: 63px;
+  height: 133px;
+}
+.secondPage .lunDiv7 .team .team-con-xz-8 i.p8-spr {
+  background-position: -65px -569px;
+}
+.secondPage .lunDiv7 .team .team-con-xz-9 {
+  top: 173px;
+  left: 916px;
+  width: 63px;
+  height: 135px;
+}
+.secondPage .lunDiv7 .team .team-con-xz-9 i.p8-spr {
+  background-position: 0 -569px;
+}
+.secondPage .lunDiv7 .team .team-con-xz-10 {
+  top: 283px;
+  left: 941px;
+  width: 114px;
+  height: 63px;
+}
+.secondPage .lunDiv7 .team .team-con-xz-10 i.p8-spr {
+  background-position: 0 -439px;
+}
+.secondPage .lunDiv7 .team .team-con-xz-11 {
+  top: 362px;
+  left: 890px;
+  width: 114px;
+  height: 63px;
+}
+.secondPage .lunDiv7 .team .team-con-xz-11 i.p8-spr {
+  background-position: 0 -504px;
+}

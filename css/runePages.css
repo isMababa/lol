@@ -1,0 +1,570 @@
+body {
+  text-align: center;
+  font-family: Tahoma, Arial, SimSun, sans-serif;
+  line-height: 1.7em;
+}
+#share {
+  display: block;
+  margin-top: 5px;
+}
+.RuneList li {
+  width: 197px;
+}
+.RuneList li span {
+  width: 154px !important;
+}
+.mainer {
+  position: relative;
+  z-index: 1;
+  padding-top: 28px;
+  overflow: hidden;
+  zoom: 1;
+  width: 1240px;
+  margin: 0 auto 50px;
+}
+.clearfix::after,
+.hd::after,
+.layout::after {
+  content: '\20';
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+  clear: both;
+}
+.colbox {
+  border: 1px solid #E1E1E1;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+.runepage {
+  padding: 40px 0;
+}
+.runepage iframe {
+  width: 100%;
+  height: 902px;
+}
+.clearfix,
+.hd,
+.layout {
+  *zoom: 1;
+}
+/*--符文列表--*/
+#content {
+  /*以上样式公用*/
+  margin: 0 auto;
+  width: 822px;
+  position: relative;
+}
+#content a {
+  color: #4c8099;
+}
+#content ol,
+#content ul {
+  list-style: none;
+}
+#content .fl {
+  float: left;
+  display: inline;
+}
+#content .fr {
+  float: right;
+  display: inline;
+}
+#content .RuneMain,
+#content .RuneMain div,
+#content .RuneMain dl,
+#content .RuneMain dt,
+#content .RuneMain dd,
+#content .RuneMain ul,
+#content .RuneMain ol,
+#content .RuneMain li,
+#content .RuneMain h1,
+#content .RuneMain h2,
+#content .RuneMain h3,
+#content .RuneMain h4,
+#content .RuneMain h5,
+#content .RuneMain h6,
+#content .RuneMain hr,
+#content .RuneMain pre,
+#content .RuneMain img,
+#content .RuneMain form,
+#content .RuneMain fieldset,
+#content .RuneMain legend,
+#content .RuneMain input,
+#content .RuneMain textarea,
+#content .RuneMain p,
+#content .RuneMain font,
+#content .RuneMain th,
+#content .RuneMain td,
+#content .RuneMain blockquote,
+#content .RuneMain select,
+#content .RuneMain figure,
+#content .RuneMain button,
+#content .RuneMain kbd {
+  margin: 0;
+  padding: 0;
+}
+#content .RuneMain section,
+#content .RuneMain article,
+#content .RuneMain aside,
+#content .RuneMain header,
+#content .RuneMain footer,
+#content .RuneMain nav,
+#content .RuneMain dialog,
+#content .RuneMain figure,
+#content .RuneMain hgroup {
+  display: block;
+}
+#content .RuneMain address,
+#content .RuneMain caption,
+#content .RuneMain cite,
+#content .RuneMain code,
+#content .RuneMain dfn,
+#content .RuneMain em,
+#content .RuneMain var,
+#content .RuneMain font {
+  font-weight: normal;
+  font-style: normal;
+}
+#content .RuneMain,
+#content .RuneMain button,
+#content .RuneMain input,
+#content .RuneMain select,
+#content .RuneMain textarea {
+  font: 12px/1.5 Tahoma, Verdana, Arial, "宋体";
+  color: #000;
+}
+#content .RuneMain input {
+  padding: 3px;
+  color: #999;
+}
+#content .RuneMain h1,
+#content .RuneMain h2,
+#content .RuneMain h3,
+#content .RuneMain h4,
+#content .RuneMain h5,
+#content .RuneMain h6,
+#content .RuneMain kbd {
+  font-size: 100%;
+  color: #000;
+}
+#content .RuneMain table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+#content .RuneMain ul,
+#content .RuneMain ol {
+  list-style-type: none;
+}
+#content .RuneMain sup {
+  vertical-align: text-top;
+}
+#content .RuneMain sub {
+  vertical-align: text-bottom;
+}
+#content .RuneMain fieldset,
+#content .RuneMain img,
+#content .RuneMain addr,
+#content .RuneMain acronym {
+  border: 0;
+}
+#content .RuneMain img,
+#content .RuneMain input,
+#content .RuneMain style,
+#content .RuneMain textarea,
+#content .RuneMain iframe,
+#content .RuneMain,
+#content .RuneMain caption,
+#content .RuneMain th {
+  text-align: left;
+}
+#content .RuneMain s {
+  text-decoration: none;
+}
+#content .RuneMain strong,
+#content .RuneMain legend {
+  color: #000;
+}
+#content .RuneMain q:before,
+#content .RuneMain q:after {
+  content: '';
+}
+#content .RuneMain .ght {
+  width: 111px;
+  height: 37px;
+  margin-left: 538px;
+  margin-top: 386px;
+}
+#content .RuneMain strong,
+#content .RuneMain legend {
+  color: #000;
+}
+#content .content-bot {
+  padding-left: 0;
+  padding-right: 0;
+  text-align: left;
+}
+#content .content-bot .RuneMain .Display {
+  height: 473px;
+  position: relative;
+  background: url("../images/runePages/-5363500_565ba69648840.jpg") no-repeat 0 0 #f3cb8d;
+}
+#content .content-bot .RuneMain .Display ul {
+  border: none;
+}
+#content .content-bot .RuneMain .Display li {
+  position: absolute;
+  width: 57px;
+  height: 65px;
+  text-align: center;
+}
+#content .content-bot .RuneMain .Display .yes {
+  background: none;
+}
+#content .content-bot .RuneMain .Display .Red .li-1 {
+  top: 405px;
+  left: 22px;
+}
+#content .content-bot .RuneMain .Display .Red .li-2 {
+  top: 405px;
+  left: 85px;
+}
+#content .content-bot .RuneMain .Display .Red .li-3 {
+  top: 407px;
+  left: 158px;
+}
+#content .content-bot .RuneMain .Display .Red .li-4 {
+  top: 348px;
+  left: 10px;
+}
+#content .content-bot .RuneMain .Display .Red .li-5 {
+  top: 343px;
+  left: 71px;
+}
+#content .content-bot .RuneMain .Display .Red .li-6 {
+  top: 358px;
+  left: 126px;
+}
+#content .content-bot .RuneMain .Display .Red .li-7 {
+  top: 296px;
+  left: 33px;
+}
+#content .content-bot .RuneMain .Display .Red .li-8 {
+  top: 301px;
+  left: 112px;
+}
+#content .content-bot .RuneMain .Display .Red .li-9 {
+  top: 257px;
+  left: 73px;
+}
+#content .content-bot .RuneMain .Display .Yellow .li-1 {
+  top: 213px;
+  left: 36px;
+}
+#content .content-bot .RuneMain .Display .Yellow .li-2 {
+  top: 210px;
+  left: 107px;
+}
+#content .content-bot .RuneMain .Display .Yellow .li-3 {
+  top: 165px;
+  left: 66px;
+}
+#content .content-bot .RuneMain .Display .Yellow .li-4 {
+  top: 141px;
+  left: 121px;
+}
+#content .content-bot .RuneMain .Display .Yellow .li-5 {
+  top: 96px;
+  left: 153px;
+}
+#content .content-bot .RuneMain .Display .Yellow .li-6 {
+  top: 70px;
+  left: 210px;
+}
+#content .content-bot .RuneMain .Display .Yellow .li-7 {
+  top: 51px;
+  left: 267px;
+}
+#content .content-bot .RuneMain .Display .Yellow .li-8 {
+  top: 33px;
+  left: 331px;
+}
+#content .content-bot .RuneMain .Display .Yellow .li-9 {
+  top: 82px;
+  left: 358px;
+}
+#content .content-bot .RuneMain .Display .Blue .li-1 {
+  top: 35px;
+  left: 398px;
+}
+#content .content-bot .RuneMain .Display .Blue .li-2 {
+  top: 35px;
+  left: 464px;
+}
+#content .content-bot .RuneMain .Display .Blue .li-3 {
+  top: 35px;
+  left: 547px;
+}
+#content .content-bot .RuneMain .Display .Blue .li-4 {
+  top: 84px;
+  left: 432px;
+}
+#content .content-bot .RuneMain .Display .Blue .li-5 {
+  top: 75px;
+  left: 509px;
+}
+#content .content-bot .RuneMain .Display .Blue .li-6 {
+  top: 122px;
+  left: 479px;
+}
+#content .content-bot .RuneMain .Display .Blue .li-7 {
+  top: 69px;
+  left: 596px;
+}
+#content .content-bot .RuneMain .Display .Blue .li-8 {
+  top: 110px;
+  left: 555px;
+}
+#content .content-bot .RuneMain .Display .Blue .li-9 {
+  top: 162px;
+  left: 577px;
+}
+#content .content-bot .RuneMain .Display .Purple li {
+  width: 111px;
+  height: 111px;
+}
+#content .content-bot .RuneMain .Display .Purple .li-1 {
+  top: 39px;
+  left: 24px;
+}
+#content .content-bot .RuneMain .Display .Purple .li-2 {
+  top: 230px;
+  left: 179px;
+}
+#content .content-bot .RuneMain .Display .Purple .li-3 {
+  top: 176px;
+  left: 410px;
+}
+#content .content-bot .RuneMain .Display .Statistics {
+  width: 160px;
+}
+#content .content-bot .RuneMain .Display .Statistics ul {
+  height: 400px;
+  overflow: auto;
+  margin-top: 34px;
+}
+#content .content-bot .RuneMain .Display .Statistics p {
+  height: 36px;
+  line-height: 34px;
+  margin-top: 4px;
+  padding-left: 50px;
+  font-size: 22px;
+  color: #502100;
+}
+#content .content-bot .RuneMain .Clear::after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#content .content-bot .RuneMain .Clear {
+  display: block;
+}
+#content .content-bot .RuneMain .Clear .RuneNavBox {
+  height: 40px;
+  background-color: #152F46;
+  position: relative;
+}
+#content .content-bot .RuneMain .Clear .RuneNavBox .RuneNav {
+  height: 28px;
+  background: url("../images/runePages/241924260145.png") no-repeat;
+  margin-left: 6px;
+  margin-top: 6px;
+}
+#content .content-bot .RuneMain .Clear .RuneNavBox .RuneNav li {
+  float: left;
+  cursor: pointer;
+  height: 28px;
+  width: 89px;
+  margin-right: 6px;
+}
+#content .content-bot .RuneMain .Clear .RuneNavBox .RuneNav li a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-indent: -999em;
+  overflow: hidden;
+}
+#content .content-bot .RuneMain .Clear .RuneNavBox .RuneNav .hover .a-1 {
+  background: url("../images/runePages/241924260145.png") no-repeat 0 -28px;
+}
+#content .content-bot .RuneMain .Clear .RuneNavBox .RuneNav .hover .a-2 {
+  background: url("../images/runePages/241924260145.png") no-repeat -95px -28px;
+}
+#content .content-bot .RuneMain .Clear .RuneNavBox .RuneNav .hover .a-3 {
+  background: url("../images/runePages/241924260145.png") no-repeat -190px -28px;
+}
+#content .content-bot .RuneMain .Clear .RuneNavBox .RuneNav .hover .a-4 {
+  background: url("../images/runePages/241924260145.png") no-repeat -285px -28px;
+}
+#content .content-bot .RuneMain .Clear .RuneNavBox .LevelDl {
+  margin: 5px 5px 0 0;
+  position: absolute;
+  right: 0;
+}
+#content .content-bot .RuneMain .Clear .RuneNavBox .LevelDl dt {
+  background-color: #233E51;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 8px;
+  border: 1px solid #66869D;
+  color: #E5F2FB;
+  cursor: pointer;
+  width: 141px;
+}
+#content .content-bot .RuneMain .Clear .RuneNavBox .LevelDl dt s {
+  text-decoration: none;
+  border: 5px solid #66869D;
+  border-bottom: none;
+  border-left: 5px dashed transparent;
+  border-right: 5px dashed transparent;
+  width: 0px;
+  height: 0px;
+  overflow: hidden;
+  position: absolute;
+  right: 8px;
+  top: 11px;
+}
+#content .content-bot .RuneMain .Clear .RuneNavBox .LevelDl dd {
+  position: absolute;
+  background-color: #2E4B5D;
+  border: 1px solid #66869D;
+  width: 141px;
+  margin-top: -1px;
+  padding: 1px 0 1px 1px;
+}
+#content .content-bot .RuneMain .Clear .RuneNavBox .LevelDl dd li {
+  float: left;
+  display: inline;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  line-height: 24px;
+  border: 1px solid #527186;
+  margin: 1px;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 3px;
+}
+#content .content-bot .RuneMain .Clear .RuneNavBox .LevelDl dd li:hover,
+#content .content-bot .RuneMain .Clear .RuneNavBox .LevelDl dd li.hover {
+  font-weight: bold;
+  border: 1px solid #936118;
+  background-color: #FFE3AF;
+  color: #743900;
+}
+#content .content-bot .RuneMain .Clear .RuneNavBox .LevelDl dt:hover,
+#content .content-bot .RuneMain .Clear .RuneNavBox .LevelDl dt.hover {
+  background-color: #2E4B5D;
+}
+#content .content-bot .RuneMain .Clear .Select {
+  background-color: #F1E8C9;
+  padding: 8px 0;
+}
+#content .content-bot .RuneMain .Clear .Select dl {
+  height: 30px;
+  clear: both;
+}
+#content .content-bot .RuneMain .Clear .Select dt {
+  float: left;
+  width: 80px;
+  text-align: right;
+  font-weight: bold;
+  line-height: 30px;
+}
+#content .content-bot .RuneMain .Clear .Select li {
+  float: left;
+  padding: 0 5px;
+  cursor: pointer;
+  border: 1px solid #666;
+  height: 22px;
+  line-height: 22px;
+  margin: 3px 3px 0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px #E0CB89;
+  -moz-transition: 0.2s;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+#content .content-bot .RuneMain .Clear .Select .hover {
+  border: 1px solid #985008;
+  background-color: #DCA85D;
+  font-weight: bold;
+  color: #743900;
+}
+#content .content-bot .RuneMain .Clear .Select .null {
+  background-color: #bbb;
+  color: #666;
+}
+#content .content-bot .RuneMain .Clear .RuneList {
+  border: 1px solid #666;
+  background-color: #fff;
+  overflow: auto;
+  padding: 3px 0 3px 3px;
+}
+#content .content-bot .RuneMain .Clear .RuneList li {
+  height: 45px;
+  line-height: 44px;
+  width: 197px;
+  background: url("../images/runePages/242862869563.png") repeat-x 0 -182px;
+  border: 1px solid #8F7829;
+  margin: 3px;
+  float: left;
+  display: inline;
+  cursor: pointer;
+  -moz-transition: 0.2s;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  border-radius: 3px;
+}
+#content .content-bot .RuneMain .Clear .RuneList li img {
+  width: 30px;
+  margin: 7px 3px 0 3px;
+  float: left;
+}
+#content .content-bot .RuneMain .Clear .RuneList li span {
+  overflow: hidden;
+  float: left;
+  height: 44px;
+  width: 154px;
+}
+#content .content-bot .RuneMain .HoverData {
+  width: 230px;
+  position: absolute;
+  z-index: 99;
+  background: url("../images/runePages/bg-box.png") repeat;
+  padding: 5px;
+  border-radius: 5px;
+  display: none;
+}
+#content .content-bot .RuneMain .HoverData div {
+  background-color: #F1E8C9;
+  border-radius: 3px;
+  padding: 2px 5px;
+}
+#content .content-bot .RuneMain .HoverData img {
+  width: 50px;
+  float: left;
+}
+#content .content-bot .RuneMain .HoverData dl {
+  margin-left: 60px;
+}
+#content .content-bot .RuneMain .HoverData dt {
+  height: 22px;
+  line-height: 22px;
+  overflow: hidden;
+}
